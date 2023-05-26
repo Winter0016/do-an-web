@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('images/background.png');
+    background-size: cover;
+}
+
+.header {
+    width: 100vw;
+    margin-top:-1.1vw;
+}
+
+.gallery {
+    width: 30vw;
+    margin-top: 5vw;
+}
+
+.images img {
+    width:100%;
+    height:auto;
+    transition: all 0.55s ease;
+    position: relative;
+}
+
+.slider {
+    width: 60vw;
+    height: auto;
+    margin-top: 4vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.images {
+    display: flex;
+    height:90%;
+    width:100%;
+}
+
+.images input {
+    display: none;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+}
+
+.dots label {
+    height: 1.5vw;
+    width: 1.5vw;
+    border-radius: 50%;
+    border: solid #FFF 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 1vw;
+}
+
+.dots label:hover {
+    background-color: white;
+}
+
+#img1:checked ~ .m1 {
+    margin-left: 0;
+}
+#img2:checked ~ .m2 {
+    margin-left: -100%;
+}
+
+#img3:checked ~ .m3 {
+    margin-left: -200%;
+}
+
+#img4:checked ~ .m4 {
+    margin-left: -300%;
+}
+.my-home{
+    margin-top:4vw;
+    width:30vw;
+    margin-bottom: 4vw;
+}
+.group-3{
+    width:60vw;
+    margin-bottom:5vw;
+}
+.visit{
+    width:100vw;
+}
