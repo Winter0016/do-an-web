@@ -16,6 +16,12 @@ body{
 .frame2{
     width:100%;
 }
+.con1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:1vw;
+}
 .avatar{
     width:25vw;
     margin-top:-14vw;
@@ -97,10 +103,19 @@ body{
 }
 @media screen and (min-width: 1500px) {
     .from-viewer{
-        width:85%;
+        width:69%;
     }
     .my-story{
+        width:69%;
+    }
+    .frame2{
         width:85%;
+    }
+    .avatar{
+        width:25vw;
+        margin-top:-14vw;
+        position: relative;
+        margin-left:67vw;
     }
 }
   
