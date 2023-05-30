@@ -74,6 +74,7 @@ body{
 }
 .pic1 , .pic2,.pic3{
     width:70%;
+    z-index:1;
 }
 .button1{
     width:fit-content;
